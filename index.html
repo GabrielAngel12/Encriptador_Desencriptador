@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptar y Desencriptar</title>
+    <link rel="stylesheet" href="CSS.css">
+</head>
+<body>
+    <div class="animated-background"></div>
+    <header>
+        <h1>Encriptado y desencriptado</h1>
+    </header>
+    
+    <section class="original">
+        <div class="contenido">
+            <textarea id="mensaje" cols="30" rows="20" placeholder="Escribe un mensaje" ></textarea>
+            <textarea cols="30" rows="20" id="encriptado" readonly></textarea>        
+        </div>
+    </section>
+
+    <div class="botones">
+        <div class="botones_uno">
+            <button id="encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <div class="botones_dos">
+            <button id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+    </div>
+    <footer class="contacto">
+        <ul class="Listas">
+            <li>Desarrollado por ANGEL GABRIEL</li>
+            <li><a href="mailto:gabriel19programa@gmail.com" class="botones_final">gabriel19programa@gmail.com</a></li>
+            <li>&copy Copyright</li>
+        </ul>
+    </footer>
+<script src="funcion_encriptar.js"></script>    
+</body>
+</html>
